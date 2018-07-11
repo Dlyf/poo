@@ -17,7 +17,7 @@ class B extends A {
     }
 
   public function autrecalcul() {
-  $nb - parent::calcul(); // il est possible d'atteindre une méthode mon parent, même s'il n'y a pas de redéfinition de surcharge.
+  $nb = parent::calcul(); // il est possible d'atteindre une méthode mon parent, même s'il n'y a pas de redéfinition de surcharge.
   // echo $this->calcul(); // nous pouvons également accéder à la méthode calcul de cet objet
 
   }
